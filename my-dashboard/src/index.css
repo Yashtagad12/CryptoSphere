@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@1,14..32,100..900&family=Outfit:wght@100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Outfit", sans-serif;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.app {
+  min-height: 100vh;
+  color: white;
+background: linear-gradient(#0e001e, #12002b, #0d1a2e);
+}
+
+.hero h1 {
+  font-size: 3.5rem;
+  margin-bottom: 16px;
+  font-weight: 800;
+}
+
+.hero p {
+  font-size: 1rem;
+  max-width: 700px;
+  margin: 0 auto 40px;
+  opacity: 0.92;
+}
+
+.main-btn {
+  background: rgba(255, 255, 255, 0.15);
+  border: 2px solid white;
+  color: white;
+  font-size: 1rem;
+  padding: 15px 30px;
+  border-radius: 60px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(8px);
+}
+
+.main-btn:hover {
+  background: white;
+  color: #4338ca;
+  transform: translateY(-3px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 768px) {
+  .hero h1 {
+  font-size: 2rem;
+  }
+}

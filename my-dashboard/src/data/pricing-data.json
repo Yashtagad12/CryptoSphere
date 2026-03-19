@@ -1,0 +1,88 @@
+{
+  "plans": [
+    {
+      "name": "Basic",
+      "price": "Free",
+      "period": "Forever",
+      "popular": false,
+      "features": [
+        "Access to spot trading",
+        "Basic market data",
+        "Standard support",
+        "0.25% trading fee",
+        "Limited daily withdrawal ($10,000)"
+      ],
+      "buttonText": "Get Started"
+    },
+    {
+      "name": "Pro",
+      "price": "$9.99",
+      "period": "per month",
+      "popular": true,
+      "features": [
+        "Everything in Basic",
+        "0.10% trading fee",
+        "Advanced charting & indicators",
+        "API access (10,000 requests/day)",
+        "Priority email support",
+        "Higher withdrawal limit ($50,000/day)"
+      ],
+      "buttonText": "Upgrade to Pro"
+    },
+    {
+      "name": "Elite",
+      "price": "$29.99",
+      "period": "per month",
+      "popular": false,
+      "features": [
+        "Everything in Pro",
+        "0.05% trading fee",
+        "VIP market insights & signals",
+        "API access (100,000 requests/day)",
+        "Dedicated account manager",
+        "Unlimited withdrawals",
+        "Higher leverage & margin trading"
+      ],
+      "buttonText": "Go Elite"
+    }
+  ],
+
+  "comparisonRows": [
+    {
+      "feature": "Trading Fee (Spot)",
+      "basic": "0.25%",
+      "pro": "0.10%",
+      "elite": "0.05%"
+    },
+    {
+      "feature": "Daily Withdrawal Limit",
+      "basic": "$10,000",
+      "pro": "$50,000",
+      "elite": "Unlimited"
+    },
+    {
+      "feature": "API Rate Limit",
+      "basic": "1,000 requests/day",
+      "pro": "10,000 requests/day",
+      "elite": "100,000 requests/day"
+    },
+    {
+      "feature": "Priority Support",
+      "basic": "—",
+      "pro": "Email",
+      "elite": "Dedicated Manager"
+    },
+    {
+      "feature": "Advanced Charts & Tools",
+      "basic": "Basic",
+      "pro": "Yes",
+      "elite": "Yes + VIP Insights"
+    },
+    {
+      "feature": "Margin & Leverage Trading",
+      "basic": "No",
+      "pro": "Limited",
+      "elite": "Full Access"
+    }
+  ]
+}
