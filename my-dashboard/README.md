@@ -1,16 +1,124 @@
-# React + Vite
+# 💹 CryptoSphere - Crypto Coins Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An interactive dashboard for tracking, analyzing, and visualizing cryptocurrency prices, trends, and market insights in real time.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📖 Table of Contents
+- [Overview](#overview)
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Project Structure](#project-structure)
+- [Screenshots](#screenshots)
+- [Contributing](#contributing)
+- [License](#license)
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📌 Overview
+CryptoSphere provides a centralized platform to monitor live cryptocurrency data. With real-time updates, charts, and analytics, it helps users stay informed about market movements and make data-driven decisions.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Features
+- 📊 **Real-Time Price Tracking** – Live updates for major cryptocurrencies  
+- 📈 **Interactive Charts** – Visualize trends and historical data  
+- 🔍 **Search & Filter** – Quickly find coins by name or symbol  
+- 🌐 **Global Market Data** – Market cap, volume, and dominance metrics  
+- 📱 **Responsive Design** – Works seamlessly across devices  
+- ⚡ **Fast Performance** – Optimized for speed and efficiency  
+
+---
+
+## 🛠 Tech Stack
+- **Frontend:** React, Vite, JavaScript, React Router
+- **Styling:** CSS, Google Fonts API
+- **Data Source:** Cryptocurrency APIs (e.g., CoinGecko, CoinMarketCap), local pricing-data, News API (e.g., newsapi.org), Line Chart (e.g., Google Charts) 
+- **State Management:** React Hooks, Context API  
+- **Version Control:** Git & GitHub  
+
+---
+
+## 🚀 Installation
+
+Clone the repository and install dependencies:
+
+```bash
+- git clone https://github.com/your-username/cryptosphere-dashboard.- git
+- cd cryptosphere-dashboard
+- npm install
+- npm run dev
+- npm run build
+
+---
+
+## 📂 Project Structure
+
+my-dashboard/
+├── node_modules/          # Installed dependencies
+├── public/                # Static assets (favicon, index.html base)
+├── src/
+│   ├── assets/            # Images, icons, and other static resources
+│   ├── Components/        # Reusable UI components (charts, tables, cards)
+│   ├── Context/           # Global state management using Context API
+│   ├── data/              # Static or mock data files
+│   ├── Pages/             # Application pages (Dashboard, Coin Details, Analytics)
+│   ├── App.jsx            # Root React component
+│   ├── index.css          # Global styles
+│   └── main.jsx           # Application entry point
+├── .gitignore             # Git ignore rules
+├── eslint.config.js       # ESLint configuration
+├── index.html             # Main HTML template
+├── package-lock.json      # Dependency lock file
+├── package.json           # Project dependencies and scripts
+├── README.md              # Project documentation
+└── vite.config.js         # Vite configuration
+
+---
+
+## 🖼 Screenshots
+
+<p align="center">
+  <img src="my-dashboard/src/assets/Screenshorts/1.png" alt="my-dashboard Image" />
+</p>
+
+<p align="center">
+  <img src="my-dashboard/src/assets/Screenshorts/2.png" alt="my-dashboard Image" />
+</p>
+
+<p align="center">
+  <img src="my-dashboard/src/assets/Screenshorts/3.png" alt="my-dashboard Image" />
+</p>
+
+<p align="center">
+  <img src="my-dashboard/src/assets/Screenshorts/4.png" alt="my-dashboard Image" />
+</p>
+
+<p align="center">
+  <img src="my-dashboard/src/assets/Screenshorts/5.png" alt="my-dashboard Image" />
+</p>
+
+---
+
+## 🤝 Contributing
+-Contributions are welcome!
+
+-Fork the repository
+
+-Create a new branch (git checkout -b feature-name)
+
+-Commit your changes (git commit -m "Add new feature")
+
+-Push to your branch (git push origin feature-name)
+
+-Open a Pull Request
+
+--- 
+
+## 📜 License
+This project is licensed under the MIT License – feel free to use and modify it.
+
+## 📧 Contact
+Created by Yash Tagad – feel free to reach out for collaboration or feedback!
