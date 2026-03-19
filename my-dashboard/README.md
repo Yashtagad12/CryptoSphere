@@ -115,10 +115,12 @@ my-dashboard/
 
 -Open a Pull Request
 
---- 
+---
 
 ## 📜 License
 This project is licensed under the MIT License – feel free to use and modify it.
+
+--
 
 ## 📧 Contact
 Created by Yash Tagad – feel free to reach out for collaboration or feedback!
