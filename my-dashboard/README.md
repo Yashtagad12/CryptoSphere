@@ -46,16 +46,18 @@ CryptoSphere provides a centralized platform to monitor live cryptocurrency data
 Clone the repository and install dependencies:
 
 ```bash
-- git clone https://github.com/your-username/cryptosphere-dashboard.- git
-- cd cryptosphere-dashboard
-- npm install
-- npm run dev
-- npm run build
+git clone https://github.com/your-username/cryptosphere-dashboardgit
+cd cryptosphere-dashboard
+npm install
+npm run dev
+npm run build
+```
 
 ---
 
 ## 📂 Project Structure
 
+```
 my-dashboard/
 ├── node_modules/          # Installed dependencies
 ├── public/                # Static assets (favicon, index.html base)
@@ -75,7 +77,7 @@ my-dashboard/
 ├── package.json           # Project dependencies and scripts
 ├── README.md              # Project documentation
 └── vite.config.js         # Vite configuration
-
+```
 ---
 
 ## 🖼 Screenshots
